@@ -1,6 +1,11 @@
+import tkinter as tk
+
+
 def main():
-    print("Hello World")
-    return 0
+    window = tk.Tk()
+    window.title("Hello World")
+    window.geometry("300x200")
+    window.mainloop()
 
 
 if __name__ == "__main__":
